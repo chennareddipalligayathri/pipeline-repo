@@ -9,5 +9,5 @@ module "gayathri-server" {
 # insert required variables here
 }
 output "ip"{
-value =module.gayathri-server.ip
+value =module.gayathri-server.IP
 }
