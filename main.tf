@@ -3,7 +3,7 @@ region ="us-east-2"
 }
 module "gayathri-server" {
   source  = "app.terraform.io/Gayathri-Terraform/gayathri-server/aws"
-  version = "1.0.1"
+  version = "1.0.2"
   hw ="t2.nano"
   servername ="Gayathri-ec2-module-instance"
 # insert required variables here
